@@ -1,0 +1,37 @@
+{
+  "name": "bagsapp-sniper-bot",
+  "version": "1.0.0",
+  "description": "Solana sniper bot for bagsapp (bags.fm) DEX",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "watch": "tsc --watch"
+  },
+  "keywords": [
+    "solana",
+    "sniper",
+    "trading-bot",
+    "bagsapp",
+    "defi"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@coral-xyz/anchor": "^0.29.0",
+    "@solana/web3.js": "^1.87.6",
+    "@grpc/grpc-js": "^1.9.14",
+    "@triton-one/yellowstone-grpc": "^0.1.0",
+    "dotenv": "^16.3.1",
+    "bs58": "^5.0.0",
+    "axios": "^1.6.2",
+    "winston": "^3.11.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.5",
+    "@types/bs58": "^5.0.0",
+    "typescript": "^5.3.3",
+    "ts-node": "^10.9.2"
+  }
+}
